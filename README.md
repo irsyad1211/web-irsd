@@ -1,2 +1,88 @@
-# web-irsd
-web
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {}
+
+.container-navbar {
+    background-color: rgb(144, 122, 118);
+    width: 100%;
+    height: 100px;    
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+.li-navbar:hover {
+    background-color:tomato;
+    transition: .5s ease-in-out;
+    trasition-delay: .5s;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.container-content{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-content {
+    background-color: none;
+    color:black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 720px;
+    height: 480px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    border-radius: 80px;
+}
+
+.a-content:hover {
+    background-color:tomato;
+    transition: .5s ease-in-out;
+    trasition-delay: .5s;
+    border-radius: 8px;
+}
+
+.img-content{
+    width: 30%;
+    height: 50%;
+}
+
+.container-footer{
+    height: 10vh;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer{
+    font-size: 40px;
+    color: black;
+}
